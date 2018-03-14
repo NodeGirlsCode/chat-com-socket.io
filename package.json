@@ -638,6 +638,6 @@
     }
   },
   "scripts": {
-    "start":"node index"
+    "start": "node index"
   }
 }
