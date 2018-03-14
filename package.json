@@ -1,13 +1,15 @@
 {
-    "name": "chatnodewithsocketio",
-    "version": "1.0",
-    "requires": true,
-    "dependencies": {
-        "express": "^4.16.3",
-        "socket.io": "^2.0.4"
-    },
-    "scripts":{
-        "start":"node index"
-    }
+  "name": "chat-with-socketio-and-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "cami-martins",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "socket.io": "^2.0.4"
+  }
 }
-
