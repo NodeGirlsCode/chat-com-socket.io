@@ -124,7 +124,7 @@ Tá, mas o que estamos fazendo afinal? O Socket.IO se divide em duas partes: a p
 
 Agora iniciamos uma nova instância do socket.io, passando o servidor HTTP. Esse servidor lerá os eventos de conexão vindos e avisará através de um console log :)
 
-* Agora, antes do  ```</body>``` do html, vamos adicionar esse código, chamando o Socket.io. Agora, toda vez que alguém entrar na index.html, seremos avisamos no console da aplicação :)
+* Agora, antes do  ```</body>``` do html, vamos adicionar esse código, chamando o Socket.io. Agora, toda vez que alguém entrar na index.html, seremos avisados no console da aplicação :)
 
 ```
 <script src="/socket.io/socket.io.js"></script>
@@ -204,7 +204,7 @@ E o script do ```</body>```:
 </script>
 ```
 
-* Agora sim! Se duas ou mais pessoas estiverem online na mesma hora nesse mesmo "link" (claro, quando subirmos), elas podem começar. Claro que esse chat pode ser melhorado e podemos colocar nome das pessoas, senha, questões de segurança mais avançadas, mas deixaremos isso para outra hora, ok?
+* Agora sim! Se duas ou mais pessoas estiverem online na mesma hora nesse mesmo "link" (claro, quando subirmos), elas podem conversar. Claro que esse chat pode ser melhorado e podemos colocar nome das pessoas, senha, questões de segurança mais avançadas, "usuário está digitando", mas deixaremos isso para outra hora, ok?
 
 Para subir para algum lugar este código, vocês podem utilizar a Umbler: https://help.umbler.com/hc/pt-br/articles/115001793863-Node-JS-na-Umbler
 
